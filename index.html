@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+
+    <div class="main">
+        <div class="locationBox">
+            <h3>Enter a City Name</h3>
+            <input class="cityInput" type="text" placeholder="E.g., New York, London, Tokyo">
+            <button id="searchBtn">Search</button>
+            <div class="seperator"></div>
+            <button id="currentLocationBtn">Use Current Location</button>
+        </div>
+
+        <div class="weatherBox">
+            <div class="selectedCity">
+                <div class="content">
+                    <h3>Kathmandu (2023-06-20)</h3>
+                    <p>Temperature: 26°C</p>
+                    <p>Wind: 1.67 M/S</p>
+                    <p>Humidity: 71%</p>
+                </div>
+                <div class="imageBox">
+                    <div class="img">☁️</div>
+                    <p>Moderate Rain</p>
+                </div>
+            </div>
+            <h3 class="forecastHeading">4-Day Forecast</h3>
+            <div class="forecast">
+                <div class="box">
+                    <h4>(2023-06-21)</h4>
+                    <div class="boxImg">☁️</div>
+                    <p>Temp: 26°C</p>
+                    <p>Wind: 1.67 M/S</p>
+                    <p>Humidity: 71%</p>
+                </div>
+                <div class="box">
+                    <h4>(2023-06-22)</h4>
+                    <div class="boxImg">☁️</div>
+                    <p>Temp: 26°C</p>
+                    <p>Wind: 1.67 M/S</p>
+                    <p>Humidity: 71%</p>
+                </div>
+                <div class="box">
+                    <h4>(2023-06-23)</h4>
+                    <div class="boxImg">☁️</div>
+                    <p>Temp: 26°C</p>
+                    <p>Wind: 1.67 M/S</p>
+                    <p>Humidity: 71%</p>
+                </div>
+                <div class="box">
+                    <h4>(2023-06-24)</h4>
+                    <div class="boxImg">☁️</div>
+                    <p>Temp: 26°C</p>
+                    <p>Wind: 1.67 M/S</p>
+                    <p>Humidity: 71%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
